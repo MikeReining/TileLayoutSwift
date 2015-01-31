@@ -12,6 +12,6 @@ protocol TileLayoutDelegate {
     func heightForItemAtIndexPath(tileLayout: TileLayout, indexPath: NSIndexPath) -> CGFloat
 }
 
-class TileLayout: UICollectionViewLayout {
+class TileLayout: UICollectionViewFlowLayout {
    
 }
